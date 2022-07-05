@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<head>
+
+<body background="bgteam.jpg">
+
+</head>
+
+<head>
+    <style>
+
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #12172b;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  margin: 20px 40px;
+  color: white;
+}
+
+.heading {
+  font-size: 60px;
+  color: white;
+}
+
+.heading span {
+  font-style: italic;
+  font-size: 30px;
+}
+
+.profiles {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 80px;
+}
+
+.profile {
+  flex-basis: 260px;
+}
+
+.profile .profile-img {
+  height: 260px;
+  width: 260px;
+  border-radius: 50%;
+  filter: grayscale(100%);
+  cursor: pointer;
+  transition: 400ms;
+}
+
+.profile:hover .profile-img {
+  filter: grayscale(0);
+}
+
+.user-name {
+  margin-top: 30px;
+  font-size: 35px;
+}
+
+.profile h5 {
+  font-size: 18px;
+  font-weight: 100;
+  letter-spacing: 3px;
+  color: #ccc;
+}
+
+.profile p {
+  font-size: 16px;
+  margin-top: 20px;
+  text-align: justify;
+}
+
+@media only screen and (max-width: 1150px) {
+  .profiles {
+    flex-direction: column;
+  }
+
+  .profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profile p {
+    text-align: center;
+    margin: 20px 60px 80px 60px;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .heading {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+  }
+
+  .heading span {
+    font-size: 15px;
+  }
+
+  .profiles {
+    margin: 20px 0;
+  }
+
+  .profile p {
+    margin: 20px 10px 80px 10px;
+  }
+}
+
+       body{
+            font-family: latha;
+            color:white;
+            background: linear-gradient( 
+            rgba(0,0,0,0.95),rgba(0,0,0,0.65),rgba(0,0,0,0)
+            )
+            background:url(food.jpg)no-repeat;
+            background-size: cover;
+        }
+  
+        .box{ width: 900px;
+        float:right;
+        border:1px solid black;}
+
+        .box ul li {
+            width: 120px;
+            float:left;
+            margin: 10px auto;
+            text-align: center;
+        }
+
+        .box ul li a{ text-decoration: none;
+        color:white;}
+        
+        .box ul li:hover{ background-color: black;}
+        .box ul li a:hover{ color:white;}
+
+ </style>
+</head>
+<body>
+
+    <div class="box">
+    <ul type="none">
+        <li><a href="index.html"> HOME</a></li>      
+        <li><a href="Submenu.html"> MENU</a></li>
+        <li><a href="onlineorder.html"> ONLINE ORDER</a></li>
+        <li><a href="team.html"> TEAM</a></li>
+        <li><a href="contact.html"> CONTACT</a></li>
+
+    </div>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>webIQ</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>webIQ</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="heading"><span></span>Our Team</h1>
+
+    <div class="profiles">
+      <div class="profile">
+        <img src="bella.jpg" class="profile-img">
+
+        <h3 class="user-name">Nabila Nazali</h3>
+        <h5>General Manager</h5>
+        <p>Manage and handle all issues related to operations, budget, financial and human resoure.</p>
+      </div>
+      <div class="profile">
+        <img src="tikahaslan.jpg" class="profile-img">
+
+        <h3 class="user-name">Atikah Haslan</h3>
+        <h5>Administration Manager</h5>
+        <p>Work for the assigned department to smoothen the administration system of the cafe and achieve the vision and mission cafe.</p>
+      </div>
+      <div class="profile">
+        <img src="aina2.jpg" class="profile-img">
+
+        <h3 class="user-name">Aina Shafie</h3>
+        <h5>Marketing Manager</h5>
+        <p>Create an engaging marketing plans, advertising, direct marketing, and campaigns to attract customers.</p>
+      </div>
+      <div class="profile">
+        <img src="ida.jpg" class="profile-img">
+
+        <h3 class="user-name">Ida Izyanti</h3>
+        <h5>Operation Manager</h5>
+        <p>Express the operations strategies and objectives to make sure the company reaches the target and operates effectively.</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
